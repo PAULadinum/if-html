@@ -87,5 +87,58 @@
         </tr>
       </tbody>
     </table>
+    <form method="get">
+      <fieldset>
+        <legend>My list form</legend>
+        <p>
+          <label for="name">Name</label><br>
+          <input required id="name" type="text" name="name" placeholder="Name">
+        </p>
+        <p>
+          <label for="email">Email</label><br>
+          <input required id="email" type="email" name="email">
+        </p>
+        <p>
+          <label for="password">Password</label><br>
+          <input required id="password" type="password" name="password">
+        </p>
+        <p>
+          <label for="level">Your programming level</label><br>
+          <input id="level" type="range" name="level" min="0" max="10">
+        </p>
+        <p>
+          What does HTML stand for?<br>
+          <input id="html-1" type="checkbox" name="html">
+          <label for="html-1">Hyperlinks and Text Markup Language</label><br>
+          <input id="html-2" type="checkbox" name="html">
+          <label for="html-2">Home Tool Markup Language</label><br>
+          <input id="html-3" type="checkbox" name="html">
+          <label for="html-3">Hyper Text Markup Language</label>
+        </p>
+        <p>
+          What does HTTP stand for?<br>
+          <input id="http-1" type="radio" name="http">
+          <label for="http-1">Hyper Text Translate Protocol</label><br>
+          <input id="http-2" type="radio" name="http">
+          <label for="http-2">Hyper Text Transmission Protocol</label><br>
+          <input id="http-3" type="radio" name="http">
+          <label for="http-3">Hyper Text Transfer Protocol</label>
+        </p>
+        <p>
+          <label for="comment">Comment</label><br>
+          <textarea id="comment" name="comment" maxlength="500" placeholder="Blablabla...">Comment</textarea>
+        </p>
+        <p>
+          <label for="select_html">What does HTML stand for?</label><br>
+          <select id="select_html" name="select_html">
+            <option value="0" disabled selected>Your answer</option>
+            <option value="1">Hyperlinks and Text Markup Language</option>
+            <option value="2">Home Tool Markup Language</option>
+            <option value="3">Hyper Text Markup Language</option>
+          </select>
+        </p>
+        <button>Send</button>
+      </fieldset>
+    </form>
   </body>
 </html>
