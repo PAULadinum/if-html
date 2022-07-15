@@ -1,4 +1,6 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -11,8 +13,7 @@
 .advantages__heading {
   text-align: center;
   color: #383838;
-  padding-top: 120px;
-  margin-bottom: 108px;
+  margin: 120px auto 104px;
 }
 
 .advantages__heading:after {
@@ -33,14 +34,14 @@
 }
 
 .advantages__item {
-  display: inline-block;
-  max-width: 300px;
-  vertical-align: top;
+  display: flex;
+  width: 296px;
+  height: 176px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .advantages__item--icon {
-  width: 75px;
-  height: 80px;
-  background-color: #3077C6;
-  margin: 0 auto 60px;
+  margin-bottom: 60px;
 }
