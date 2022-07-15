@@ -8,6 +8,7 @@
   background-color: #ffffff;
   max-width: 1440px;
   height: 569px;
+  margin: 0 auto;
 }
 
 .advantages__heading {
@@ -28,7 +29,6 @@
 .advantages__items {
   list-style: none;
   display: flex;
-  padding-left: 0px;
   justify-content: space-between;
   margin: 0px 104px;
 }
