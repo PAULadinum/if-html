@@ -58,3 +58,40 @@ body {
   font-size: 24px;
   font-weight: 400;
 }
+
+.footer {
+  max-width: 1440px;
+  height: 630px;
+  position: relative;
+  background-color: #10367C;
+  color: #ffffff;
+  padding: 120px 272px 0 104px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+  column-gap: 223px;
+}
+
+.footer__list {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+li:first-child {
+  font-weight: 500;
+}
+
+.footer__list--item {
+  margin-bottom: 24px;
+}
+
+.footer__copyright {
+  position: absolute;
+  bottom: 120px;
+  font-size: 14px;
+  font-weight: 400;
+}
