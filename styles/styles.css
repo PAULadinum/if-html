@@ -62,6 +62,7 @@ body {
 .footer {
   max-width: 1440px;
   height: 630px;
+  margin: 0 auto;
   position: relative;
   background-color: #10367C;
   color: #ffffff;
