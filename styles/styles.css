@@ -71,12 +71,11 @@ body {
   color: #ffffff;
   padding: 120px 272px 0 104px;
   display: flex;
-  justify-content: space-between;
+  column-gap: 184px;
 }
 
-.footer-left {
-  display: flex;
-  column-gap: 223px;
+._column {
+  width: 33.33%;
 }
 
 .footer__list {
