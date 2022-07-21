@@ -1,7 +1,13 @@
+@import url(./fonts.css);
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 .advantages {
@@ -12,6 +18,8 @@
 }
 
 .advantages__heading {
+  font-size: 40px;
+  font-weight: 500;
   text-align: center;
   color: #383838;
   margin: 120px auto 104px;
@@ -43,5 +51,50 @@
 }
 
 .advantages__item--icon {
-  margin-bottom: 60px;
+  align-self: auto;
+}
+
+.advantages__item--title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.wrapper {
+  background-color: #10367C;
+}
+
+.footer {
+  max-width: 1440px;
+  height: 630px;
+  margin: 0 auto;
+  position: relative;
+  color: #ffffff;
+  padding: 120px 272px 0 104px;
+  display: flex;
+  column-gap: 184px;
+}
+
+._column {
+  width: 33.33%;
+}
+
+.footer__list {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+li:first-child {
+  font-weight: 500;
+}
+
+.footer__list--item {
+  margin-bottom: 24px;
+}
+
+.footer__copyright {
+  position: absolute;
+  bottom: 120px;
+  font-size: 14px;
+  font-weight: 400;
 }
