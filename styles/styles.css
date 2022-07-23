@@ -225,11 +225,11 @@ body {
 
 .advantages__item--icon {
   align-self: auto;
+  fill: #3077C6;
 }
 
 .advantages__item--title {
   font-size: 24px;
-  font-weight: 400;
 }
 
 .wrapper {
