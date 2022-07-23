@@ -229,8 +229,27 @@ body {
 }
 
 .advantages__item--icon {
-  align-self: auto;
   fill: #3077C6;
+}
+
+#support {
+  width: 76px; 
+  height: 92px;
+}
+
+#communication {
+  width: 84px; 
+  height: 84px;
+}
+
+#booking {
+  width: 100px; 
+  height: 68px;
+}
+
+#reviews {
+  width: 92px; 
+  height: 84px;
 }
 
 .advantages__item--title {
