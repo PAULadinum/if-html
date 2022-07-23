@@ -143,7 +143,8 @@ body {
   flex-basis: 314px;
 }
 
-._chosed {
+.search__form--input-field:focus {
+  outline: none;
   box-shadow: inset 0 0 0 3px #F5BD41;
   border-radius: 8px;
  }
