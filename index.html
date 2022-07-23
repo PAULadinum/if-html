@@ -8,21 +8,21 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header container">
+    <header class="top-section container">
       <nav class="nav__panel">
-        <div class="nav__panel--logo" src="./images/Triphouse_logo.png" alt="Triphouse logo"></div>
+        <div class="nav__panel--logo" src="./images/Triphouse_logo.png"></div>
         <div class="nav__panel--items">
           <ul class="nav__panel--links ">
             <li class="nav__panel--link _active">Stays</li>
             <li class="nav__panel--link">Attractions</li>
           </ul>
           <div class="nav__panel--buttons">
-            <div class="nav__panel--day-night-switcher"></div>
-            <div class="nav__panel--account-avatar"></div>
+            <div class="nav__panel--button nav__panel--button--theme-switcher"></div>
+            <div class="nav__panel--button nav__panel--button--account-avatar"></div>
           </div>
         </div>
       </nav>
-        <h1 class="header__title">Discover stays <br>to live, work or just relax</h1>
+        <h1 class="top-section__title">Discover stays <br>to live, work or just relax</h1>
         <form class="search__form" method="get">
             <p class="search__form--destination">
               <label class="search__form--title" for="destination">Your destination or hotel name</label>
@@ -30,16 +30,16 @@
             </p>
             <p class="search__form--date">
               <label class="search__form--title"  for="date">Check-in — Check-out</label>
-              <input required class="search__form--input-field _chosed"  id="date" type="date" name="date" value="Tue 15 Sept — Sat 19 Sept">
+              <input required class="search__form--input-field _active"  id="date" type="date" name="date" value="Tue 15 Sept — Sat 19 Sept">
             </p>
             <p class="search__form--living-option">
               <input required class="search__form--input-field" type="text" name="living_option" value="2 Adults — 0 Children — 1 Room">
             </p>
             <button class="search__form--button">Search</button>
           </form>
-          <div class="header__download">
-            <div class="header__download--google-play"><a href="#"></a></div>
-            <div class="header__download--app-store"><a href="#"></a></div>
+          <div class="top-section__download">
+            <div class="top-section__download--google-play"><a href="#"></a></div>
+            <div class="top-section__download--app-store"><a href="#"></a></div>
           </div>
     </header>
     <section class="advantages container">

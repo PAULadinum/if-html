@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.top-section {
   min-height: 100vh;
   background-image: url(../images/header_background.webp);
   background-size: cover;
@@ -55,17 +55,18 @@ body {
   position: relative;
 }
 
-._active::after {
+.nav__panel--link._active::after {
   position: absolute;
   display: block;
   content: "";
-  width: 100%;
+  width: 90%;
   height: 4px;
   background-color: #F5BD41;
-  bottom: -14px;
+  left: 7%;
+  bottom: -70%;
   }
 
-  .nav__panel--day-night-switcher {
+  .nav__panel--button--theme-switcher {
     width: 30px;
     height: 30px;
     background-image: url(../images/header_sprite.png);
@@ -73,7 +74,7 @@ body {
     background-position: -205px -5px;
   }
 
-  .nav__panel--account-avatar {
+  .nav__panel--button--account-avatar {
     width:40px;
     height: 40px;
     background-image: url(../images/header_sprite.png);
@@ -81,7 +82,7 @@ body {
     background-position: -235px 0px;
   }
 
-.header__title {
+.top-section__title {
   color: #ffffff;
   font-size: 50px;
   font-weight: 500;
@@ -143,7 +144,7 @@ body {
   flex-basis: 314px;
 }
 
-._chosed {
+.search__form--input-field._active {
   box-shadow: inset 0 0 0 3px #F5BD41;
   border-radius: 8px;
  }
@@ -159,7 +160,7 @@ body {
   border-radius: 8px;
 }
 
-.header__download {
+.top-section__download {
   margin: 0 auto;
   height: 40px;
   display: flex;
@@ -167,7 +168,7 @@ body {
   justify-content: center;
 }
 
-.header__download--google-play {
+.top-section__download--google-play {
   width: 135px;
   height: inherit;
   background-image: url(../images/header_sprite.png);
@@ -175,7 +176,7 @@ body {
   background-position: -275px 0px;
 }
 
-.header__download--app-store {
+.top-section__download--app-store {
   width: 120px;
   height: inherit;
   background-image: url(../images/header_sprite.png);
@@ -196,12 +197,16 @@ body {
   text-align: center;
   color: #383838;
   margin: 120px auto 104px;
+  position: relative;
 }
 
 .advantages__heading:after {
+  position: absolute;
   display: block;
   content: "";
-  margin: 20px auto 0px;
+  left: 50%;
+  transform: translateX(-50px);
+  bottom: -20px;
   width: 100px;
   height: 4px;
   background-color: #F5BD41;
