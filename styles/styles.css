@@ -33,9 +33,8 @@ body {
 
 .nav__panel--logo {
   width: 205px;
-  height: 40px;
-  background-image: url(../images/header_sprite.png);
-  background-size: 530px 40px;;
+  background-image: url(../images/top-section__image-sprite.png);
+  background-size: cover;
 }
 
 .nav__panel--items {
@@ -69,17 +68,11 @@ body {
   .nav__panel--button--theme-switcher {
     width: 30px;
     height: 30px;
-    background-image: url(../images/header_sprite.png);
-    background-size: 530px 40px;
-    background-position: -205px -5px;
   }
 
   .nav__panel--button--account-avatar {
     width:40px;
     height: 40px;
-    background-image: url(../images/header_sprite.png);
-    background-size: 530px 40px;
-    background-position: -235px 0px;
   }
 
 .top-section__title {
@@ -162,7 +155,7 @@ body {
 
 .top-section__download {
   margin: 0 auto;
-  height: 40px;
+  min-height: 40px;
   display: flex;
   column-gap: 16px;
   justify-content: center;
@@ -170,18 +163,16 @@ body {
 
 .top-section__download--google-play {
   width: 135px;
-  height: inherit;
-  background-image: url(../images/header_sprite.png);
-  background-size: 530px 40px;
-  background-position: -275px 0px;
+  background-image: url(../images/top-section__image-sprite.png);
+  background-size: cover;
+  background-position: -205px 0;
 }
 
 .top-section__download--app-store {
   width: 120px;
-  height: inherit;
-  background-image: url(../images/header_sprite.png);
-  background-size: 530px 40px;
-  background-position: -410px 0px;
+  background-image: url(../images/top-section__image-sprite.png);
+  background-size: cover;
+  background-position: -340px 0;
 }
 
 .advantages {
