@@ -18,6 +18,7 @@ body {
 
 .top-section {
   min-height: 100vh;
+  padding-top: 51px;
   background-image: url(../images/header_background.webp);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +26,7 @@ body {
 
 .nav__panel {
   max-width: 1232px;
-  padding-top: 51px;
+  height: 40px;
   margin: 0 104px 196px;
   display: flex;
   justify-content: space-between;
@@ -33,6 +34,7 @@ body {
 
 .nav__panel--logo {
   width: 205px;
+  height: inherit;
   background-image: url(../images/top-section__image-sprite.png);
   background-size: cover;
 }
@@ -65,23 +67,17 @@ body {
   bottom: -70%;
   }
 
-  #theme-switcher {
-    width: 30px;
-    height: 30px;
-    fill: #ffffff;
-  }
+#theme-switcher {
+  width: 30px;
+  height: 30px; 
+  fill: #ffffff;
+}
 
-  #account-avatar {
-    width: 40px;
-    height: 40px;
-    fill: #ffffff;
-  }
-  
-
-  .nav__panel--button--account-avatar {
-    width:40px;
-    height: 40px;
-  }
+#account-avatar {
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+}
 
 .top-section__title {
   color: #ffffff;
