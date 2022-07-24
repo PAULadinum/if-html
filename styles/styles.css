@@ -65,10 +65,18 @@ body {
   bottom: -70%;
   }
 
-  .nav__panel--button--theme-switcher {
+  #theme-switcher {
     width: 30px;
     height: 30px;
+    fill: #ffffff;
   }
+
+  #account-avatar {
+    width: 40px;
+    height: 40px;
+    fill: #ffffff;
+  }
+  
 
   .nav__panel--button--account-avatar {
     width:40px;
