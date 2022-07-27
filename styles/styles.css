@@ -16,6 +16,13 @@ body {
   margin: 0 auto;
 }
 
+.svg-sprite { 
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  }
+
 .top-section {
   min-height: 100vh;
   padding-top: 51px;
@@ -238,17 +245,17 @@ body {
 ._support {
   width: 76px; 
   height: 92px;
-}
+} 
 
 ._communication {
   width: 84px; 
   height: 84px;
-}
+} 
 
 ._booking {
   width: 100px; 
   height: 68px;
-}
+} 
 
 ._reviews {
   width: 92px; 
