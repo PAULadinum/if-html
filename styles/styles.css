@@ -16,8 +16,9 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.top-section {
   min-height: 100vh;
+  padding-top: 51px;
   background-image: url(../images/header_background.webp);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +26,7 @@ body {
 
 .nav__panel {
   max-width: 1232px;
-  padding-top: 51px;
+  height: 40px;
   margin: 0 104px 196px;
   display: flex;
   justify-content: space-between;
@@ -33,9 +34,9 @@ body {
 
 .nav__panel--logo {
   width: 205px;
-  height: 40px;
-  background-image: url(../images/header_sprite.png);
-  background-size: 530px 40px;;
+  height: inherit;
+  background-image: url(../images/top-section__image-sprite.png);
+  background-size: cover;
 }
 
 .nav__panel--items {
@@ -55,33 +56,30 @@ body {
   position: relative;
 }
 
-._active::after {
+.nav__panel--link._active::after {
   position: absolute;
   display: block;
   content: "";
-  width: 100%;
+  width: 90%;
   height: 4px;
   background-color: #F5BD41;
-  bottom: -14px;
+  left: 7%;
+  bottom: -70%;
   }
 
-  .nav__panel--day-night-switcher {
-    width: 30px;
-    height: 30px;
-    background-image: url(../images/header_sprite.png);
-    background-size: 530px 40px;
-    background-position: -205px -5px;
-  }
+#theme-switcher {
+  width: 30px;
+  height: 30px; 
+  fill: #ffffff;
+}
 
-  .nav__panel--account-avatar {
-    width:40px;
-    height: 40px;
-    background-image: url(../images/header_sprite.png);
-    background-size: 530px 40px;
-    background-position: -235px 0px;
-  }
+#account-avatar {
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+}
 
-.header__title {
+.top-section__title {
   color: #ffffff;
   font-size: 50px;
   font-weight: 500;
@@ -160,28 +158,26 @@ body {
   border-radius: 8px;
 }
 
-.header__download {
+.top-section__download {
   margin: 0 auto;
-  height: 40px;
+  min-height: 40px;
   display: flex;
   column-gap: 16px;
   justify-content: center;
 }
 
-.header__download--google-play {
+.top-section__download--google-play {
   width: 135px;
-  height: inherit;
-  background-image: url(../images/header_sprite.png);
-  background-size: 530px 40px;
-  background-position: -275px 0px;
+  background-image: url(../images/top-section__image-sprite.png);
+  background-size: cover;
+  background-position: -205px 0;
 }
 
-.header__download--app-store {
+.top-section__download--app-store {
   width: 120px;
-  height: inherit;
-  background-image: url(../images/header_sprite.png);
-  background-size: 530px 40px;
-  background-position: -410px 0px;
+  background-image: url(../images/top-section__image-sprite.png);
+  background-size: cover;
+  background-position: -340px 0;
 }
 
 .advantages {
@@ -197,12 +193,16 @@ body {
   text-align: center;
   color: #383838;
   margin: 120px auto 104px;
+  position: relative;
 }
 
 .advantages__heading:after {
+  position: absolute;
   display: block;
   content: "";
-  margin: 20px auto 0px;
+  left: 50%;
+  transform: translateX(-50px);
+  bottom: -20px;
   width: 100px;
   height: 4px;
   background-color: #F5BD41;
@@ -225,12 +225,31 @@ body {
 }
 
 .advantages__item--icon {
-  align-self: auto;
+  fill: #3077C6;
+}
+
+#support {
+  width: 76px; 
+  height: 92px;
+}
+
+#communication {
+  width: 84px; 
+  height: 84px;
+}
+
+#booking {
+  width: 100px; 
+  height: 68px;
+}
+
+#reviews {
+  width: 92px; 
+  height: 84px;
 }
 
 .advantages__item--title {
   font-size: 24px;
-  font-weight: 400;
 }
 
 .wrapper {
