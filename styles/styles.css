@@ -8,6 +8,180 @@
 
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 100vh;
+  background-image: url(../images/header_background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav__panel {
+  max-width: 1232px;
+  padding-top: 51px;
+  margin: 0 104px 196px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__panel--logo {
+  width: 205px;
+  height: 40px;
+  background-image: url(../images/header_sprite.png);
+  background-size: 530px 40px;;
+}
+
+.nav__panel--items {
+  color: #ffffff;
+  display: flex;
+  column-gap: 48px;
+}
+
+.nav__panel--links, .nav__panel--buttons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.nav__panel--link {
+  position: relative;
+}
+
+._active::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #F5BD41;
+  bottom: -14px;
+  }
+
+  .nav__panel--day-night-switcher {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/header_sprite.png);
+    background-size: 530px 40px;
+    background-position: -205px -5px;
+  }
+
+  .nav__panel--account-avatar {
+    width:40px;
+    height: 40px;
+    background-image: url(../images/header_sprite.png);
+    background-size: 530px 40px;
+    background-position: -235px 0px;
+  }
+
+.header__title {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 58.59px;
+  margin: 0 104px 100px;
+  max-width: 542px;
+}
+
+.search__form {
+  position: relative;
+  color: #ffffff;
+  font-size: 18px;
+  max-width: 1232px;
+  margin: 0 104px 120px;
+  display: flex;
+  align-items: flex-end;
+  z-index: 10;
+}
+
+.search__form::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 64px;
+  content: "";
+  background-color: #ffffff;
+  box-shadow: inset 0 0 0 3px #F3F3F4;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.search__form--title {
+  padding: 0 0 24px 24px;
+}
+
+.search__form--input-field {
+  max-height: 64px;
+  font-size: 18px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 22px 0 21px 24px;
+}
+
+.search__form--destination, .search__form--date {
+  display: flex;
+  flex-direction: column;
+}
+
+.search__form--destination {
+  flex-basis: 467px;
+}
+
+.search__form--date {
+  flex-basis: 259px;
+}
+
+.search__form--living-option {
+  flex-basis: 314px;
+}
+
+.search__form--input-field:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 3px #F5BD41;
+  border-radius: 8px;
+ }
+
+.search__form--button {
+  flex-basis: 192px;
+  height: 64px;
+  background-color: #3077C6;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+}
+
+.header__download {
+  margin: 0 auto;
+  height: 40px;
+  display: flex;
+  column-gap: 16px;
+  justify-content: center;
+}
+
+.header__download--google-play {
+  width: 135px;
+  height: inherit;
+  background-image: url(../images/header_sprite.png);
+  background-size: 530px 40px;
+  background-position: -275px 0px;
+}
+
+.header__download--app-store {
+  width: 120px;
+  height: inherit;
+  background-image: url(../images/header_sprite.png);
+  background-size: 530px 40px;
+  background-position: -410px 0px;
 }
 
 .advantages {
@@ -84,7 +258,7 @@ body {
   font-weight: 400;
 }
 
-li:first-child {
+.footer__list li:first-child {
   font-weight: 500;
 }
 
