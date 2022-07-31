@@ -183,6 +183,7 @@ body {
   background-color: #ffffff;
   height: 569px;
   margin: 0 auto;
+  padding-top: 120px;
 }
 
 .advantages__heading {
@@ -190,7 +191,7 @@ body {
   font-weight: 500;
   text-align: center;
   color: #383838;
-  margin: 120px auto 104px;
+  margin: 0 auto 104px;
   position: relative;
 }
 
@@ -209,12 +210,12 @@ body {
 .advantages__items {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .advantages__item {
   display: flex;
-  width: 296px;
   height: 176px;
   flex-direction: column;
   align-items: center;
@@ -226,23 +227,23 @@ body {
 }
 
 #support {
-  width: 76px; 
-  height: 92px;
+  max-width: 76px; 
+  max-height: 92px;
 }
 
 #communication {
-  width: 84px; 
-  height: 84px;
+  max-width: 84px; 
+  max-height: 84px;
 }
 
 #booking {
-  width: 100px; 
-  height: 68px;
+  max-width: 100px; 
+  max-height: 68px;
 }
 
 #reviews {
-  width: 92px; 
-  height: 84px;
+  max-width: 92px; 
+  max-height: 84px;
 }
 
 .advantages__item--title {
@@ -262,6 +263,10 @@ body {
   padding: 120px 272px 0 104px;
   display: flex;
   column-gap: 184px;
+}
+
+.footer--logo {
+  display: none;
 }
 
 ._column {
