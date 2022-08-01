@@ -16,6 +16,13 @@ body {
   margin: 0 auto;
 }
 
+.svg-sprite { 
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  }
+
 .top-section {
   min-height: 100vh;
   padding-top: 51px;
@@ -185,6 +192,13 @@ body {
   margin: 0 auto;
   padding-top: 120px;
 }
+
+.svg-sprite { 
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  }
 
 .advantages__heading {
   font-size: 40px;
