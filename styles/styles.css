@@ -16,6 +16,13 @@ body {
   margin: 0 auto;
 }
 
+.svg-sprite { 
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  }
+
 .top-section {
   min-height: 100vh;
   padding-top: 51px;
@@ -187,6 +194,13 @@ body {
   margin: 0 auto;
 }
 
+.svg-sprite { 
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  }
+
 .advantages__heading {
   font-size: 40px;
   font-weight: 500;
@@ -228,25 +242,25 @@ body {
   fill: #3077C6;
 }
 
-#support {
+._support {
   width: 76px; 
   height: 92px;
-}
+} 
 
-#communication {
+._communication {
   width: 84px; 
   height: 84px;
-}
+} 
 
-#booking {
+._booking {
   width: 100px; 
   height: 68px;
-}
+} 
 
-#reviews {
+._reviews {
   width: 92px; 
   height: 84px;
-}
+} 
 
 .advantages__item--title {
   font-size: 24px;
