@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1232px;
   margin: 0 auto;
 }
 
@@ -32,9 +32,8 @@ body {
 }
 
 .nav__panel {
-  max-width: 1232px;
   height: 40px;
-  margin: 0 104px 196px;
+  margin-bottom: 196px;
   display: flex;
   justify-content: space-between;
 }
@@ -60,6 +59,7 @@ body {
 }
 
 .nav__panel--link {
+  font-size: 24px;
   position: relative;
 }
 
@@ -71,7 +71,7 @@ body {
   height: 4px;
   background-color: #F5BD41;
   left: 7%;
-  bottom: -70%;
+  bottom: -45%;
   }
 
 #theme-switcher {
@@ -99,8 +99,7 @@ body {
   position: relative;
   color: #ffffff;
   font-size: 18px;
-  max-width: 1232px;
-  margin: 0 104px 120px;
+  margin-bottom: 120px;
   display: flex;
   align-items: flex-end;
   z-index: 10;
@@ -189,9 +188,9 @@ body {
 
 .advantages {
   background-color: #ffffff;
-  max-width: 1440px;
   height: 569px;
   margin: 0 auto;
+  padding-top: 120px;
 }
 
 .svg-sprite { 
@@ -206,7 +205,7 @@ body {
   font-weight: 500;
   text-align: center;
   color: #383838;
-  margin: 120px auto 104px;
+  margin: 0 auto 104px;
   position: relative;
 }
 
@@ -225,13 +224,12 @@ body {
 .advantages__items {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0px 104px;
 }
 
 .advantages__item {
   display: flex;
-  width: 296px;
   height: 176px;
   flex-direction: column;
   align-items: center;
@@ -242,25 +240,25 @@ body {
   fill: #3077C6;
 }
 
-._support {
-  width: 76px; 
-  height: 92px;
-} 
+#support {
+  max-width: 76px; 
+  max-height: 92px;
+}
 
-._communication {
-  width: 84px; 
-  height: 84px;
-} 
+#communication {
+  max-width: 84px; 
+  max-height: 84px;
+}
 
-._booking {
-  width: 100px; 
-  height: 68px;
-} 
+#booking {
+  max-width: 100px; 
+  max-height: 68px;
+}
 
-._reviews {
-  width: 92px; 
-  height: 84px;
-} 
+#reviews {
+  max-width: 92px; 
+  max-height: 84px;
+}
 
 .advantages__item--title {
   font-size: 24px;
@@ -279,6 +277,10 @@ body {
   padding: 120px 272px 0 104px;
   display: flex;
   column-gap: 184px;
+}
+
+.footer--logo {
+  display: none;
 }
 
 ._column {
