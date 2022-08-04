@@ -86,6 +86,13 @@ body {
   fill: #ffffff;
 }
 
+#hamburger-button {
+  display: none;
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+}
+
 .top-section__title {
   color: #ffffff;
   font-size: 50px;
@@ -108,7 +115,7 @@ body {
 .search__form::after {
   position: absolute;
   display: block;
-  width: 100%;
+  width: 90%;
   height: 64px;
   content: "";
   background-color: #ffffff;
@@ -141,6 +148,10 @@ body {
 
 .search__form--date {
   flex-basis: 259px;
+}
+
+.search__form--date._check-out {
+  display: none;
 }
 
 .search__form--living-option {
