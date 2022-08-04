@@ -1,6 +1,7 @@
 /*  */
 
 :root {
+  --general-white: #ffffff;
   --col-width: calc(100% / 12);
   --col-xs-width: calc(100% / 6);
 }
@@ -53,10 +54,20 @@
   width: calc(var(--col-width) * 12);
 }
 
+/* REUSABLE GRID */
+.grid_2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
 /* *************************** */
 /* SMALL LAPTOPS (lg) */
 @media (max-width: 1360px) {
-  
+  /* TOP-SECTION */
+  .nav__panel, .search__form, .search__form::after {
+    padding: 0 16px;
+  }
+
   /* FOOTER */
   .footer {
     height: auto;
@@ -118,7 +129,82 @@
 /* *************************** */
 /* TABLET (PORTRAIT) (sm) */
 @media (max-width: 768px) {
-  [class*="col-"] {
+/* TOP-SECTION */
+.top-section {
+  height: inherit;
+}
+
+.nav__panel {
+  height: 30px;
+}
+
+.nav__panel--logo {
+  width: 153px;
+}
+
+.nav__panel--links {
+  display: none;
+}
+
+#theme-switcher {
+  width: 24px;
+  height: 24px; 
+}
+
+#account-avatar {
+  width: 32px;
+  height: 32px;
+}
+
+#hamburger-button  {
+  display: block;
+  width: 32px;
+  height: 24px;
+}
+
+.top-section__title {
+  font-size: 38px;
+  margin: 0 32px 30px;
+}
+
+ .search__form {
+  background-color: #F5BD41;
+  /* max-width: 90%; */
+  margin: 0 32px 40px;
+  padding: 8px;
+  display: grid;
+  gap: 8px;
+ }
+
+ .search__form--destination {
+  grid-column: 1/3;
+ }
+
+ .search__form--living-option {
+  grid-column: 1/3;
+ }
+
+ .search__form--date._check-out {
+  display: block;
+}
+ .search__form--button {
+  grid-column: 1/3;
+ }
+
+ .search__form::after {
+   display: none;
+ }
+
+ .search__form--title {
+  display: none;
+ }
+
+ .search__form--input-field {
+  background-color: var(--general-white);
+  border-radius: 8px;
+ }
+
+[class*="col-"] {
     width: 50%;
   }
 
@@ -192,6 +278,47 @@
 }
 
 @media (max-width: 480px) {
+  /* TOP-SECTION */
+  .top-section {
+    padding-top: 0px;
+  }
+
+  .nav__panel {
+    height: 48px;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+
+  .nav__panel--logo {
+    width: 122px;
+    height: 24px;
+  }
+
+  .nav__panel--buttons {
+    column-gap: 16px;
+  }
+
+  #theme-switcher {
+    width: 16px;
+    height: 16px;
+  }
+  
+  #account-avatar {
+    width: 24px;
+    height: 24px;
+  }
+  
+  #hamburger-button  {
+    display: block;
+    width: 24px;
+    height: 16px;
+  }
+  .top-section__title {
+    font-size: 30px;
+    line-height: 35.16px;
+  }
+ 
+
   [class*="col-xs"] {
     width: 100%;
   }
@@ -240,6 +367,7 @@
   }
 
   .footer--logo {
+    fill: var(--general-white);
     display: block;
     position: absolute;
     left: 50%;
