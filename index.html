@@ -35,7 +35,11 @@
           <form class="search__form grid_2-cols" method="get">
               <div class="search__form--destination">
                 <label class="search__form--title" for="destination">Your destination or hotel name</label>
-                <input required class="search__form--input-field" id="destination" type="text" name="destination" placeholder="Enter a destination or hotel name" value="New York" >
+                <input required class="search__form--input-field" id="destination" type="text" name="destination" placeholder="Enter a destination or hotel name" list="cities" >
+                <datalist id="cities">
+                  <option value="New York" selected>New York</option>
+                  <option value="Minsk">Minsk</option>
+                </datalist>
               </div>
               <div class="search__form--date _check-in">
                 <label class="search__form--title"  for="date">Check-in — Check-out</label>
