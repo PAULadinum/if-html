@@ -63,14 +63,19 @@ body {
   position: relative;
 }
 
-.nav__panel--link._active::after {
+.nav__panel:hover {
+  cursor: pointer;
+}
+
+.nav__panel--link:hover::after {
   position: absolute;
   display: block;
   content: "";
   width: 90%;
   height: 4px;
   background-color: #F5BD41;
-  left: 7%;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: -45%;
   }
 
@@ -176,7 +181,7 @@ body {
 }
 
 .top-section__download {
-  margin: 0 auto;
+  margin: 0 auto 40px;
   min-height: 40px;
   display: flex;
   column-gap: 16px;
@@ -220,7 +225,7 @@ body {
   position: relative;
 }
 
-.advantages__heading:after {
+h2:after {
   position: absolute;
   display: block;
   content: "";
