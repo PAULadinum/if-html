@@ -105,6 +105,15 @@
     font-size: 18px;
   }
 
+  /* HOMES */
+  .homes__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .homes__list--item:nth-child(2) ~ .homes__list--item {
+    display: none;
+  }
+  
   /* FOOTER */
   .footer {
     height: auto;
@@ -224,6 +233,20 @@
 
   .advantages__item {
     height: 125px;
+  }
+
+   /* HOMES */
+   .homes__list--image {
+    width: 200px;
+    aspect-ratio: 1/1;
+   }
+
+   .homes__list--item {
+    height: inherit;
+   }
+
+   .homes__list--item:nth-child(3) ~ .homes__list--item {
+    display: none;
   }
 
   /* FOOTER */

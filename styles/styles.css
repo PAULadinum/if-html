@@ -306,14 +306,16 @@ h2.advantages__heading:after {
 }
 
 .homes__list--item {
+  width: auto;
   height: 435px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding-bottom: 30px;
 }
 
 .homes__list--image {
-  width: 296px;
+  max-width: 296px;
   aspect-ratio: 1/1;
 }
 
@@ -332,8 +334,8 @@ h2.advantages__heading:after {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  top: 380px;
-  right: 104px;
+  top: 44%;
+  right: 7%;
   width: 40px;
   transform: translate(50%, 50%);
   aspect-ratio: 1/1;
