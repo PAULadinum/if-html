@@ -11,6 +11,14 @@ body {
   font-weight: 400;
 }
 
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  color: #383838;
+  margin: 0 auto 104px;
+}
+
 .container {
   max-width: 1232px;
   margin: 0 auto;
@@ -63,7 +71,7 @@ body {
   position: relative;
 }
 
-.nav__panel:hover {
+.nav__panel--link:hover {
   cursor: pointer;
 }
 
@@ -217,15 +225,10 @@ body {
   }
 
 .advantages__heading {
-  font-size: 40px;
-  font-weight: 500;
-  text-align: center;
-  color: #383838;
-  margin: 0 auto 104px;
   position: relative;
 }
 
-h2:after {
+h2.advantages__heading:after {
   position: absolute;
   display: block;
   content: "";
@@ -280,7 +283,71 @@ h2:after {
   font-size: 24px;
 }
 
-.wrapper {
+/* HOMES */
+.wrapper._homes {
+  background-color: #EAF0F9;
+}
+
+.homes {
+  max-width: 1440px;
+  height: 828px;
+  padding-top: 120px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.homes__list {
+  max-width: 1232px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 16px;
+  list-style: none;
+}
+
+.homes__list--item {
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.homes__list--image {
+  width: 296px;
+  aspect-ratio: 1/1;
+}
+
+.homes__list--title {
+  font-size: 24px;
+  color: #3077C6;
+}
+
+.homes__list--text {
+  font-size: 24px;
+  color: #BFBFBF;
+}
+
+.homes__list--slider-button {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  top: 380px;
+  right: 104px;
+  width: 40px;
+  transform: translate(50%, 50%);
+  aspect-ratio: 1/1;
+  background-color: #F3F3F4;
+  border-radius: 50%;
+  box-shadow: 3px 4px 5px #666666;
+}
+
+.homes__list--slider-button-arrow-right {
+  stroke: #383838; 
+}
+
+/* FOOTER */
+.wrapper._footer {
   background-color: #10367C;
 }
 
