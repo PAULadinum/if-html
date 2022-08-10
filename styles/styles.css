@@ -293,21 +293,23 @@ h2.advantages__heading:after {
   height: 828px;
   padding-top: 120px;
   margin: 0 auto;
-  position: relative;
 }
 
 .homes__list {
-  max-width: 1232px;
+  max-width: calc(1232px + 32px);
   margin: 0 auto;
+  padding: 0 16px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 16px;
   list-style: none;
+  position: relative;
 }
 
 .homes__list--item {
   width: auto;
   height: 435px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -315,6 +317,7 @@ h2.advantages__heading:after {
 }
 
 .homes__list--image {
+  width: 100%;
   max-width: 296px;
   aspect-ratio: 1/1;
 }
@@ -326,6 +329,7 @@ h2.advantages__heading:after {
 
 .homes__list--text {
   font-size: 24px;
+  width: inherit;
   color: #BFBFBF;
 }
 
@@ -334,11 +338,11 @@ h2.advantages__heading:after {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  top: 44%;
-  right: 7%;
+  top: 30%;
+  right: 16px;
   width: 40px;
-  transform: translate(50%, 50%);
   aspect-ratio: 1/1;
+  transform: translateX(50%);
   background-color: #F3F3F4;
   border-radius: 50%;
   box-shadow: 3px 4px 5px #666666;

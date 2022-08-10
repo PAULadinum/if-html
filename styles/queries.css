@@ -83,6 +83,7 @@
     bottom: 40px;
   }
 }
+
 /* *************************** */
 /* TABLET (LANDSCAPE) (md) */
 @media (max-width: 1024px) {
@@ -236,18 +237,7 @@
   }
 
    /* HOMES */
-   .homes__list--image {
-    width: 200px;
-    aspect-ratio: 1/1;
-   }
 
-   .homes__list--item {
-    height: inherit;
-   }
-
-   .homes__list--item:nth-child(3) ~ .homes__list--item {
-    display: none;
-  }
 
   /* FOOTER */
   .footer {
