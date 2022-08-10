@@ -290,25 +290,27 @@ h2.advantages__heading:after {
 
 .homes {
   max-width: 1440px;
-  height: 828px;
+  max-height: 828px;
+  height: inherit;
   padding-top: 120px;
+  padding-bottom: 120px;
   margin: 0 auto;
 }
 
 .homes__list {
+  width: fit-content;
   max-width: calc(1232px + 32px);
   margin: 0 auto;
   padding: 0 16px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
   column-gap: 16px;
   list-style: none;
   position: relative;
 }
 
 .homes__list--item {
-  width: auto;
-  height: 435px;
+  max-height: 435px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -329,7 +331,6 @@ h2.advantages__heading:after {
 
 .homes__list--text {
   font-size: 24px;
-  width: inherit;
   color: #BFBFBF;
 }
 
@@ -349,7 +350,10 @@ h2.advantages__heading:after {
 }
 
 .homes__list--slider-button-arrow-right {
+  width: 9px;
+  height: 21px;
   stroke: #383838; 
+  stroke-width: 2;
 }
 
 /* FOOTER */
