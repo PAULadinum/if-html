@@ -300,6 +300,7 @@ h2.advantages__heading:after {
 .homes__list {
   width: fit-content;
   max-width: calc(1232px + 32px);
+  height: fit-content;
   margin: 0 auto;
   padding: 0 16px;
   display: grid;
@@ -310,6 +311,7 @@ h2.advantages__heading:after {
 }
 
 .homes__list--item {
+  height: 100%;
   max-height: 435px;
   margin: auto;
   display: flex;
@@ -318,15 +320,10 @@ h2.advantages__heading:after {
   padding-bottom: 30px;
 }
 
-.homes__list--image-block {
+.homes__list--image {
   width: 100%;
   max-width: 296px;
   aspect-ratio: 1/1;
-}
-
-.homes__list--image {
-  width: inherit;
-  height: inherit;
 }
 
 .homes__list--title {
