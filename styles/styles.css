@@ -325,7 +325,8 @@ h2.advantages__heading:after {
 }
 
 .homes__list--image {
-  object-fit: scale-down;
+  width: inherit;
+  height: inherit;
 }
 
 .homes__list--title {
