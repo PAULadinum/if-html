@@ -318,10 +318,14 @@ h2.advantages__heading:after {
   padding-bottom: 30px;
 }
 
-.homes__list--image {
+.homes__list--image-block {
   width: 100%;
   max-width: 296px;
   aspect-ratio: 1/1;
+}
+
+.homes__list--image {
+  object-fit: scale-down;
 }
 
 .homes__list--title {
