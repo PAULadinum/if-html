@@ -64,9 +64,6 @@
 /* SMALL LAPTOPS (lg) */
 @media (max-width: 1360px) {
   /* TOP-SECTION */
-  .nav__panel, .search, .search::after {
-    padding: 0 16px;
-  }
 
   /* FOOTER */
   .footer {
