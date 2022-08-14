@@ -3,6 +3,7 @@
 :root {
   --general-blue: #10467C;
   --accent-blue: #3077C6;
+  --accent-yellow: #F5BD41;
   --stroke-color-main: #F3F3F4;
   --text-color-main: #383838;
   --general-white: #FFFFFF;
@@ -78,24 +79,35 @@ h2 {
 }
 
 .nav__panel_link {
+  display: inline-block;
   font-size: 24px;
   position: relative;
 }
 
-.nav__panel_link:hover {
-  cursor: pointer;
+.nav__panel_link:link, .nav__panel_link:visited {
+  text-decoration: none;
+  color: var(--general-white);
 }
 
-.nav__panel_link:hover::after {
+.nav__panel_link:active {
+  color: var(--accent-yellow);
+}
+
+.nav__panel_link::after {
   position: absolute;
   display: block;
   content: "";
-  width: 90%;
+  width: 0%;
   height: 4px;
-  background-color: #F5BD41;
+  background-color: var(--accent-yellow);
   left: 50%;
   transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
   bottom: -45%;
+  }
+
+  .nav__panel_link:hover::after {
+    width: 90%;
   }
 
 #theme-switcher {
