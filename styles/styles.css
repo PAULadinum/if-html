@@ -5,7 +5,9 @@
   --accent-blue: #3077C6;
   --stroke-color-main: #F3F3F4;
   --text-color-main: #383838;
-  --general-white: #ffffff;
+  --general-white: #FFFFFF;
+  --secondary-text: #BFBFBF;
+  --bg-color-main: #EAF0F9;
 }
 
 * {
@@ -483,6 +485,75 @@ h2.advantages__heading:after {
   stroke: #383838; 
   stroke-width: 2;
   transform: rotate(90deg);
+}
+
+/* SIGN-UP */
+.sign-up.container {
+  position: relative;
+  background-color: var(--bg-color-main);
+  max-width: 1232px;
+  height: inherit;
+  max-height: 200px;
+  padding: 51px 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.sign-up__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 86px;
+  aspect-ratio: 1/1;
+  align-self: center;
+  background-color: var(--general-white);
+  border-radius: 50%;
+}
+
+.sign-up__icon_svg {
+  width: 50px;
+  height: 45px;
+  fill: var(--accent-blue);
+}
+
+.sign-up__text-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+.sign-up__text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.sign-up__button {
+  font-size: 18px;
+  color: var(--accent-blue);
+  background-color: var(--general-white);
+  padding: 12px 32px;
+  border: 1px solid var(--accent-blue);
+  border-radius: 8px;
+}
+
+.sign-up__button:hover {
+  color: var(--general-white);
+  background-color: var(--accent-blue);
+}
+
+.sign-up__close-button {
+  width: 26px;
+  height: 26px;
+  fill: var(--secondary-text);
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.sign-up__close-button:hover {
+  fill: var(--accent-blue);
 }
 
 /* FOOTER */
