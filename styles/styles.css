@@ -594,11 +594,13 @@ h2.advantages__heading:after {
   padding: 12px 32px;
   border: 1px solid var(--accent-blue);
   border-radius: 8px;
+  transition: all 0.4s; 
 }
 
 .sign-up__button:hover {
   color: var(--general-white);
   background-color: var(--accent-blue);
+  cursor: pointer;
 }
 
 .sign-up__close-button {
@@ -608,10 +610,12 @@ h2.advantages__heading:after {
   position: absolute;
   top: 24px;
   right: 24px;
+  transition: all 0.7s; 
 }
 
 .sign-up__close-button:hover {
   fill: var(--accent-blue);
+  cursor: pointer;
 }
 
 /* FOOTER */
