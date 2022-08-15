@@ -383,8 +383,6 @@ h2.advantages__heading:after {
 
 /* DESTINATIONS */
 .destinations {
-  max-width: 1440px;
-  max-height: 958px;
   height: inherit;
   padding-top: 120px;
   padding-bottom: 208px;
@@ -392,8 +390,7 @@ h2.advantages__heading:after {
 }
 
 .destinations__tabs {
-  width: inherit;
-  max-width: calc(192px + 192px + 238px);
+  max-width: 622px;
   height: 64px;
   margin-bottom: 65px;
   display: flex;
@@ -447,8 +444,7 @@ h2.advantages__heading:after {
 }
 
 .destinations__list {
-  width: fit-content;
-  max-width: calc(1232px + 32px);
+  max-width: 1264px;
   height: fit-content;
   margin: 0 auto;
   display: grid;
