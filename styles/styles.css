@@ -809,11 +809,11 @@ h2.reviews__heading::after {
 }
 
 .reviews__navigation_dot {
-  width: 8px;
-  height: 8px;
-  background-color: var(--general-white);
+  width: 6px;
+  height: 6px;
+  background-color: transparent;
+  border: 1px solid #333333;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 1px #333333;
   cursor: pointer;
 }
 

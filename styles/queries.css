@@ -641,8 +641,13 @@
     padding: 12px 0 32px;
   }
 
+  .reviews__hotel {
+    margin-bottom: 12px;
+  }
+
   .reviews__hotel-info, .reviews__hotel-info_rating, .reviews__review-author_info, .reviews__text-block_review {
     font-size: 15px;
+    line-height: 18px;
   }
 
   .reviews__hotel-info, .reviews__hotel-score {
@@ -655,8 +660,11 @@
 
   .reviews__review-author {
     max-height: 53px;
-    padding: 5px 0 5px 5px;
     gap: 12px;
+  }
+
+  .reviews__review-author_avatar-block {
+    width: 43px;
   }
 
   .reviews__review-author_info {
