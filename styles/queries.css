@@ -399,6 +399,11 @@
     gap: 16px;
   }
 
+  /* APP */
+  .app {
+    display: flex;
+  }
+
   /* FOOTER */
   .footer {
     height: auto;
@@ -679,6 +684,18 @@
     display: flex;
   }
 
+
+  /* APP */
+  .app__close-button {
+    width: 16px;
+    height: 16px;
+  }
+
+  .app__text, .app__button {
+    font-size: 12px;
+    line-height: 14.06px;
+  }
+
   /* FOOTER */
   .footer {
     height: 203px;
@@ -689,6 +706,8 @@
   }
 
   .footer__logo {
+    width: 98px;
+    height: 19px;
     fill: var(--general-white);
     display: block;
     position: absolute;

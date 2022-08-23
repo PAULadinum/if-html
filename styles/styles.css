@@ -821,6 +821,49 @@ h2.reviews__heading::after {
   background-color: #333333;
 }
 
+/* APP */
+.app {
+  max-height: 106px;
+  height: fit-content;
+  padding: 24px 17px;
+  display: none;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.app__close-button {
+  width: 20px;
+  height: 20px;
+  fill: var(--secondary-text);
+}
+
+.app__logo-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-blue);
+  width: 58px;
+  height: 58px;
+  border-radius: 4px;
+}
+
+.app__logo-block_svg {
+  width: 54px;
+  height: 12px;
+  fill: var(--general-white);
+}
+
+.app__text, .app__button {
+  font-size: 16px;
+}
+
+.app__button {
+  font-weight: 500;
+  color: var(--accent-blue);
+  cursor: pointer;
+}
+
 /* FOOTER */
 .wrapper._footer {
   background-color: #10367C;
