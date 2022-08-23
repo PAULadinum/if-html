@@ -292,6 +292,8 @@
 }
  .search__button {
   grid-column: 1/3;
+  font-size: 22px;
+  line-height: 24px;
  }
 
  .search::after {
@@ -491,17 +493,27 @@
     width: 24px;
     height: 16px;
   }
+
   .top-section__title {
     font-size: 30px;
     line-height: 35.16px;
   }
- 
+  
+  .search__input {
+    font-size: 15px;
+    line-height: 18px;
+  }
 
+  .search__button {
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  /* ADVANTAGES */
   [class*="col-xs"] {
     width: 100%;
   }
 
-  /* ADVANTAGES */
   .advantages {
     height: auto;
     padding-top: 24px;
@@ -689,6 +701,11 @@
   .app__close-button {
     width: 16px;
     height: 16px;
+  }
+
+  .app__logo-block {
+    width: 58px;
+    height: 58px;
   }
 
   .app__text, .app__button {
