@@ -403,6 +403,27 @@ h2.advantages__heading:after {
   margin: 0 auto;
 }
 
+.destinations__heading {
+position: relative;
+}
+
+.destinations__heading::after {
+  position: absolute;
+  display: block;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+  width: 0;
+  height: 4px;
+  transition: width 0.3s ease-in-out;
+  background-color: var(--accent-yellow);
+}
+
+.destinations__heading:hover::after {
+  width: 100px;
+}
+
 .destinations__tabs {
   max-width: 622px;
   height: 64px;
