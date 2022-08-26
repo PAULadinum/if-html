@@ -1,13 +1,13 @@
 /*  */
 
 :root {
-  --general-blue: #10467C;
-  --accent-blue: #3077C6;
-  --stroke-color-main: #F3F3F4;
+  --general-blue: #10467c;
+  --accent-blue: #3077c6;
+  --stroke-color-main: #f3f3f4;
   --text-color-main: #383838;
-  --general-white: #FFFFFF;
-  --secondary-text: #BFBFBF;
-  --bg-color-main: #EAF0F9;
+  --general-white: #ffffff;
+  --secondary-text: #bfbfbf;
+  --bg-color-main: #eaf0f9;
   --col-width: calc(100% / 12);
   --col-xs-width: calc(100% / 6);
 }
@@ -75,7 +75,7 @@
   .footer {
     height: auto;
     padding: 80px 100px;
-    column-gap: 60px
+    column-gap: 60px;
   }
 
   .footer__list_item {
@@ -91,7 +91,7 @@
 /* TABLET (LANDSCAPE) (md) */
 @media (max-width: 1024px) {
   /* ADVANTAGES */
-  .advantages {   
+  .advantages {
     height: auto;
     padding-top: 60px;
   }
@@ -99,7 +99,7 @@
   .advantages__heading {
     font-size: 32px;
     margin-bottom: 60px;
-  }   
+  }
 
   .advantages__items {
     margin-bottom: 60px;
@@ -124,7 +124,8 @@
     gap: 20px;
   }
 
-  .homes__list_title, .homes__list_text {
+  .homes__list_title,
+  .homes__list_text {
     font-size: 20px;
   }
 
@@ -174,7 +175,7 @@
   .reviews {
     padding-top: 100px;
     padding-bottom: 100px;
-    }
+  }
 
   .reviews__heading {
     font-size: 36px;
@@ -184,11 +185,11 @@
   .reviews__list_item {
     height: inherit;
   }
-  
+
   .reviews__list_item:nth-child(2) ~ .reviews__list_item {
     display: none;
   }
-  
+
   .reviews__text-block {
     padding: 20px;
   }
@@ -197,13 +198,17 @@
     margin-bottom: 20px;
   }
 
-  .reviews__hotel-info, .reviews__hotel-info_rating, .reviews__review-author_info, .reviews__text-block_review {
+  .reviews__hotel-info,
+  .reviews__hotel-info_rating,
+  .reviews__review-author_info,
+  .reviews__text-block_review {
     font-size: 17px;
   }
 
-  .reviews__hotel-info, .reviews__hotel-score {
+  .reviews__hotel-info,
+  .reviews__hotel-score {
     gap: 10px;
-  } 
+  }
 
   .reviews__review-author {
     gap: 18px;
@@ -223,9 +228,8 @@
 
   .footer__list_item {
     margin-bottom: 16px;
-  }f
-
-  .footer__copyright {
+  }
+  f .footer__copyright {
     bottom: 30px;
   }
 }
@@ -233,83 +237,83 @@
 /* *************************** */
 /* TABLET (PORTRAIT) (sm) */
 @media (max-width: 768px) {
-/* TOP-SECTION */
-.top-section {
-  height: inherit;
-}
+  /* TOP-SECTION */
+  .top-section {
+    height: inherit;
+  }
 
-.nav__panel {
-  height: 30px;
-}
+  .nav-panel {
+    height: 30px;
+  }
 
-.nav__panel_logo {
-  width: 153px;
-}
+  .nav-panel__logo {
+    width: 153px;
+  }
 
-.nav__panel_links {
-  display: none;
-}
+  .nav-panel__links {
+    display: none;
+  }
 
-#theme-switcher {
-  width: 24px;
-  height: 24px; 
-}
+  #theme-switcher {
+    width: 24px;
+    height: 24px;
+  }
 
-#account-avatar {
-  width: 32px;
-  height: 32px;
-}
+  #account-avatar {
+    width: 32px;
+    height: 32px;
+  }
 
-#hamburger-button  {
-  display: block;
-  width: 32px;
-  height: 24px;
-}
+  #hamburger-button {
+    display: block;
+    width: 32px;
+    height: 24px;
+  }
 
-.top-section__title {
-  font-size: 38px;
-  margin: 0 32px 30px;
-}
+  .top-section__title {
+    font-size: 38px;
+    margin: 0 32px 30px;
+  }
 
- .search {
-  background-color: #F5BD41;
-  margin: 0 32px 40px;
-  padding: 8px;
-  display: grid;
-  gap: 8px;
- }
+  .search {
+    background-color: #f5bd41;
+    margin: 0 32px 40px;
+    padding: 8px;
+    display: grid;
+    gap: 8px;
+  }
 
- .search__form_destination {
-  grid-column: 1/3;
- }
+  .search__form_destination {
+    grid-column: 1/3;
+  }
 
- .search__form_living-option {
-  grid-column: 1/3;
- }
+  .search__form_living-option {
+    grid-column: 1/3;
+  }
 
- .search__form_date._check-out {
-  display: block;
-}
- .search__button {
-  grid-column: 1/3;
-  font-size: 22px;
-  line-height: 24px;
- }
+  .search__form_date._check-out {
+    display: block;
+  }
+  .search__button {
+    grid-column: 1/3;
+    font-size: 22px;
+    line-height: 24px;
+  }
 
- .search::after {
-   display: none;
- }
+  .search::after {
+    display: none;
+  }
 
- .search__label {
-  display: none;
- }
+  .search__label {
+    display: none;
+  }
 
- .search__input {
-  background-color: var(--general-white);
-  border-radius: 8px;
- }
+  .search__input {
+    background-color: var(--general-white);
+    border-radius: 8px;
+  }
 
-[class*="col-"] {
+  [class*="col-"] {
     width: 50%;
   }
 
@@ -320,7 +324,7 @@
 
   .advantages__heading {
     margin-bottom: 40px;
-  }   
+  }
 
   .advantages__items {
     margin-bottom: 40px;
@@ -331,7 +335,7 @@
     height: 125px;
   }
 
-   /* HOMES */
+  /* HOMES */
   .homes {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -346,12 +350,13 @@
     gap: 16px;
   }
 
-  .homes__list_title, .homes__list_text {
+  .homes__list_title,
+  .homes__list_text {
     font-size: 16px;
   }
 
-   /* DESTINATIONS */
-   .destinations {
+  /* DESTINATIONS */
+  .destinations {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -393,7 +398,10 @@
     margin-bottom: 40px;
   }
 
-  .reviews__hotel-info, .reviews__hotel-info_rating, .reviews__review-author_info,.reviews__text-block_review {
+  .reviews__hotel-info,
+  .reviews__hotel-info_rating,
+  .reviews__review-author_info,
+  .reviews__text-block_review {
     font-size: 16px;
   }
 
@@ -473,18 +481,18 @@
     padding-top: 0px;
   }
 
-  .nav__panel {
+  .nav-panel {
     height: 48px;
     margin-bottom: 40px;
     align-items: center;
   }
 
-  .nav__panel_logo {
+  .nav-panel__logo {
     width: 122px;
     height: 24px;
   }
 
-  .nav__panel_buttons {
+  .nav-panel__buttons {
     column-gap: 16px;
   }
 
@@ -492,13 +500,13 @@
     width: 16px;
     height: 16px;
   }
-  
+
   #account-avatar {
     width: 24px;
     height: 24px;
   }
-  
-  #hamburger-button  {
+
+  #hamburger-button {
     display: block;
     width: 24px;
     height: 16px;
@@ -508,7 +516,7 @@
     font-size: 30px;
     line-height: 35.16px;
   }
-  
+
   .search__input {
     font-size: 15px;
     line-height: 18px;
@@ -532,7 +540,7 @@
   .advantages__heading {
     font-size: 28px;
     margin-bottom: 32px;
-}
+  }
 
   h2.advantages__heading:after {
     display: none;
@@ -542,7 +550,7 @@
     row-gap: 32px;
     margin-bottom: 40px;
   }
-  
+
   .advantages__item {
     height: 104px;
     row-gap: 16px;
@@ -575,7 +583,8 @@
     gap: 8px;
   }
 
-  .homes__list_title, .homes__list_text {
+  .homes__list_title,
+  .homes__list_text {
     font-size: 12px;
   }
 
@@ -595,11 +604,11 @@
     height: inherit;
     margin-bottom: 24px;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     gap: 16px;
   }
 
-  .destinations__tabs::after{
+  .destinations__tabs::after {
     display: none;
   }
 
@@ -663,14 +672,18 @@
     margin-bottom: 12px;
   }
 
-  .reviews__hotel-info, .reviews__hotel-info_rating, .reviews__review-author_info, .reviews__text-block_review {
+  .reviews__hotel-info,
+  .reviews__hotel-info_rating,
+  .reviews__review-author_info,
+  .reviews__text-block_review {
     font-size: 15px;
     line-height: 18px;
   }
 
-  .reviews__hotel-info, .reviews__hotel-score {
+  .reviews__hotel-info,
+  .reviews__hotel-score {
     gap: 8px;
-  } 
+  }
 
   .reviews__hotel-info_reviews-number {
     font-size: 12px;
@@ -697,7 +710,6 @@
     display: flex;
   }
 
-
   /* APP */
   .app__close-button {
     width: 16px;
@@ -709,7 +721,8 @@
     height: 58px;
   }
 
-  .app__text, .app__button {
+  .app__text,
+  .app__button {
     font-size: 12px;
     line-height: 14.06px;
   }
