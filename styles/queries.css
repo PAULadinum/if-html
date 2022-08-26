@@ -458,6 +458,16 @@
 }
 
 @media (max-width: 480px) {
+  /* COMMON & REUSABLE COMPONENTS */
+  .btn {
+    width: 28px;
+  }
+
+  .btn-arrow {
+    width: 7px;
+    height: 11px;
+  }
+
   /* TOP-SECTION */
   .top-section {
     padding-top: 0px;
@@ -567,15 +577,6 @@
 
   .homes__list_title, .homes__list_text {
     font-size: 12px;
-  }
-
-  .homes__list_slider-button {
-    width: 28px;
-  }
-
-  .homes__list_slider-button-arrow-right {
-    width: 7px;
-    height: 11px;
   }
 
   /* DESTINATIONS */
