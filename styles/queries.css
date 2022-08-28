@@ -129,10 +129,6 @@
     font-size: 20px;
   }
 
-  .homes__list_item:nth-child(2) ~ .homes__list_item {
-    display: none;
-  }
-
   /* DESTINATIONS */
   .destinations {
     padding-top: 100px;

@@ -36,6 +36,14 @@ span {
   font-weight: 500;
 }
 
+ul {
+  padding-left: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
 .container {
   max-width: calc(1232px + 32px);
   margin: 0 auto;
@@ -305,7 +313,15 @@ span {
   background-image: url(../images/top-section__image-sprite.png);
   background-size: cover;
   background-position: -340px 0;
+  transition: filter 0.3s;
 }
+
+.download__google-play:hover,
+.download__app-store:hover {
+  filter: brightness(0.85);
+}
+
+/* ADVANTAGES */
 
 .advantages {
   background-color: #ffffff;
@@ -386,10 +402,6 @@ h2.advantages__heading:after {
   padding: 120px 0 120px;
 }
 
-.homes__content {
-  height: inherit;
-}
-
 /* .homes__list {
   width: fit-content;
   max-width: calc(1232px + 32px);
@@ -405,14 +417,16 @@ h2.advantages__heading:after {
 .homes__list {
   width: fit-content;
   margin: 0 auto;
-}
-
-.swiper {
   position: relative;
 }
 
+.swiper {
+  width: auto;
+}
+
 .homes__list_item {
-  max-width: 100%;
+  width: fit-content;
+  max-width: 296px;
   height: 100%;
   max-height: 435px;
   display: flex;
@@ -557,6 +571,7 @@ h2.advantages__heading:after {
 
 .destinations__image-block {
   max-width: 296px;
+  max-height: 296px;
   aspect-ratio: 1/1;
   overflow: hidden;
   position: relative;
