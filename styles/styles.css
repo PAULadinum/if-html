@@ -630,14 +630,16 @@ h2.advantages__heading:after {
 
 /* SIGN-UP */
 .sign-up.container {
-  position: relative;
-  background-color: var(--bg-color-main);
-  max-width: 1232px;
   height: inherit;
   max-height: 200px;
+}
+
+.sign-up__content {
+  background-color: var(--bg-color-main);
   padding: 51px 24px;
   display: flex;
   gap: 24px;
+  position: relative;
 }
 
 .sign-up__icon {
@@ -652,7 +654,7 @@ h2.advantages__heading:after {
   border-radius: 50%;
 }
 
-.sign-up__icon_svg {
+.sign-up__icon--svg {
   width: 50px;
   height: 45px;
   fill: var(--accent-blue);
