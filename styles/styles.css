@@ -381,17 +381,13 @@ h2.advantages__heading:after {
 }
 
 /* HOMES */
-.wrapper__homes {
+.homes {
   background-color: #eaf0f9;
+  padding: 120px 0 120px;
 }
 
-.homes {
-  max-width: 1440px;
-  max-height: 828px;
+.homes__content {
   height: inherit;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  margin: 0 auto;
 }
 
 .homes__list {
@@ -399,7 +395,6 @@ h2.advantages__heading:after {
   max-width: calc(1232px + 32px);
   height: fit-content;
   margin: 0 auto;
-  padding: 0 16px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
   column-gap: 16px;
@@ -407,10 +402,13 @@ h2.advantages__heading:after {
   position: relative;
 }
 
+.swiper {
+  width: fit-content;
+}
+
 .homes__list_item {
   height: 100%;
   max-height: 435px;
-  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -435,7 +433,8 @@ h2.advantages__heading:after {
 
 .homes__list_slider-btn {
   top: 30%;
-  right: 16px;
+  right: 0px;
+  z-index: 10;
 }
 
 /* DESTINATIONS */
