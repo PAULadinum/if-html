@@ -390,7 +390,7 @@ h2.advantages__heading:after {
   height: inherit;
 }
 
-.homes__list {
+/* .homes__list {
   width: fit-content;
   max-width: calc(1232px + 32px);
   height: fit-content;
@@ -400,13 +400,19 @@ h2.advantages__heading:after {
   column-gap: 16px;
   list-style: none;
   position: relative;
+} */
+
+.homes__list {
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .swiper {
-  width: fit-content;
+  position: relative;
 }
 
 .homes__list_item {
+  max-width: 100%;
   height: 100%;
   max-height: 435px;
   display: flex;
