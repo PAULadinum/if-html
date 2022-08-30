@@ -816,7 +816,7 @@ h2.reviews__heading::after {
   color: var(--accent-blue);
 }
 
-.reviews__hotel-info_name {
+.reviews__name {
   font-size: 18px;
   font-weight: 500;
 }
@@ -852,6 +852,8 @@ h2.reviews__heading::after {
   gap: 21px;
   max-height: 64px;
   margin-bottom: 17px;
+  padding: 5px 0 5px 5px;
+  width: fit-content;
 }
 
 .reviews__avatar-block {
