@@ -758,7 +758,7 @@ h2.reviews__heading::after {
   margin: 0 auto;
 }
 
-.reviews__list_item {
+.reviews__item {
   width: fit-content;
   max-width: 400px;
   height: 760px;
@@ -771,13 +771,13 @@ h2.reviews__heading::after {
   position: relative;
 }
 
-.reviews__list_image {
+.reviews__image {
   object-fit: cover;
   width: 100%;
   aspect-ratio: 1/1;
 }
 
-.reviews__image-block_text {
+.reviews__image-block--text {
   position: absolute;
   bottom: 0;
   color: var(--general-white);
@@ -800,14 +800,14 @@ h2.reviews__heading::after {
   margin-bottom: 24px;
 }
 
-.reviews__hotel-info,
-.reviews__hotel-score {
+.reviews__info,
+.reviews__score {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.reviews__hotel-info {
+.reviews__info {
   color: var(--accent-blue);
 }
 
@@ -816,16 +816,16 @@ h2.reviews__heading::after {
   font-weight: 500;
 }
 
-.reviews__hotel-info_location {
+.reviews__location {
   font-size: 18px;
 }
 
-.reviews__hotel-score {
+.reviews__score {
   align-items: flex-end;
   gap: 12px;
 }
 
-.reviews__hotel-info_rating {
+.reviews__rating {
   font-size: 18px;
   font-weight: 600;
   line-height: 25px;
@@ -835,13 +835,13 @@ h2.reviews__heading::after {
   border-radius: 8px;
 }
 
-.reviews__hotel-info_reviews-number {
+.reviews__number {
   font-size: 14px;
   line-height: 16px;
   color: var(--secondary-text);
 }
 
-.reviews__review-author {
+.reviews__author {
   display: flex;
   align-items: center;
   gap: 21px;
@@ -849,14 +849,14 @@ h2.reviews__heading::after {
   margin-bottom: 17px;
 }
 
-.reviews__review-author_avatar-block {
+.reviews__avatar-block {
   max-width: 54px;
   width: 100%;
   aspect-ratio: 1/1;
   fill: var(--secondary-text);
 }
 
-.reviews__review-author_info {
+.reviews__author-info {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -864,26 +864,26 @@ h2.reviews__heading::after {
   line-height: 21px;
 }
 
-.reviews__review-author_name {
+.reviews__author-name {
   color: var(--text-color-main);
 }
 
-.reviews__review-author_location {
+.reviews__author-location {
   color: var(--secondary-text);
 }
 
-.reviews__text-block_review {
+.reviews__text {
   font-size: 18px;
   line-height: 21px;
   color: var(--text-color-main);
 }
 
-.reviews__list_slider-button {
+.reviews__slider-button {
   top: 23%;
   right: 0;
 }
 
-.reviews__list_slider-button-arrow:hover {
+.reviews__slider-button-arrow:hover {
   stroke: var(--accent-blue);
   stroke-width: 4;
 }

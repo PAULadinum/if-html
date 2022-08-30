@@ -178,11 +178,11 @@
     margin-bottom: 80px;
   }
 
-  .reviews__list_item {
+  .reviews__item {
     height: inherit;
   }
 
-  .reviews__list_item:nth-child(2) ~ .reviews__list_item {
+  .reviews__item:nth-child(2) ~ .reviews__item {
     display: none;
   }
 
@@ -194,19 +194,19 @@
     margin-bottom: 20px;
   }
 
-  .reviews__hotel-info,
-  .reviews__hotel-info_rating,
-  .reviews__review-author_info,
-  .reviews__text-block_review {
+  .reviews__info,
+  .reviews__score,
+  .reviews__author,
+  .reviews__text {
     font-size: 17px;
   }
 
-  .reviews__hotel-info,
-  .reviews__hotel-score {
+  .reviews__hotel,
+  .reviews__score {
     gap: 10px;
   }
 
-  .reviews__review-author {
+  .reviews__author {
     gap: 18px;
   }
 
@@ -397,14 +397,14 @@
     margin-bottom: 40px;
   }
 
-  .reviews__hotel-info,
-  .reviews__hotel-info_rating,
-  .reviews__review-author_info,
-  .reviews__text-block_review {
+  .reviews__hotel,
+  .reviews__score,
+  .reviews__author,
+  .reviews__text {
     font-size: 16px;
   }
 
-  .reviews__review-author {
+  .reviews__author {
     gap: 16px;
   }
 
@@ -650,11 +650,11 @@
     margin-bottom: 32px;
   }
 
-  .reviews__list_item {
+  .reviews__item {
     background-color: transparent;
   }
 
-  .reviews__list_item:nth-child(1) ~ .reviews__list_item {
+  .reviews__item:nth-child(1) ~ .reviews__item {
     display: none;
   }
 
@@ -670,37 +670,36 @@
     margin-bottom: 12px;
   }
 
-  .reviews__hotel-info,
-  .reviews__hotel-info_rating,
-  .reviews__review-author_info,
-  .reviews__text-block_review {
+  .reviews__hotel,
+  .reviews__hotel-score .reviews__author,
+  .reviews__text {
     font-size: 15px;
     line-height: 18px;
   }
 
-  .reviews__hotel-info,
-  .reviews__hotel-score {
+  .reviews__hotel,
+  .reviews__score {
     gap: 8px;
   }
 
-  .reviews__hotel-info_reviews-number {
+  .reviews__number {
     font-size: 12px;
   }
 
-  .reviews__review-author {
+  .reviews__author {
     max-height: 53px;
     gap: 12px;
   }
 
-  .reviews__review-author_avatar-block {
+  .reviews__avatar-block {
     width: 43px;
   }
 
-  .reviews__review-author_info {
+  .reviews__author_info {
     gap: 4px;
   }
 
-  .reviews__list_slider-button {
+  .reviews__slider-button {
     display: none;
   }
 
