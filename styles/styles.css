@@ -403,6 +403,10 @@ h2.advantages__heading:after {
   padding: 120px 0 120px;
 }
 
+.homes__content {
+  position: relative;
+}
+
 /* .homes__list {
   width: fit-content;
   max-width: calc(1232px + 32px);
@@ -415,14 +419,13 @@ h2.advantages__heading:after {
   position: relative;
 } */
 
-.homes__list {
-  width: fit-content;
-  margin: 0 auto;
+.homes__slider-wrapper {
   position: relative;
 }
 
-.swiper {
-  width: auto;
+.homes__list {
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .homes__item {
@@ -453,9 +456,10 @@ h2.advantages__heading:after {
 }
 
 .homes__slider-button {
+  position: absolute;
   top: 30%;
-  right: 0px;
   z-index: 10;
+  right: 0;
 }
 
 /* DESTINATIONS */
