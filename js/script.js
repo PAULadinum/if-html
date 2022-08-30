@@ -17,7 +17,7 @@ const swiper = new Swiper(".homes__slider", {
     sensivity: 1,
   },
   navigation: {
-    nextEl: ".homes__list_slider-btn",
+    nextEl: ".homes__slider-button",
   },
   breakpoints: {
     360: {

@@ -120,12 +120,12 @@
     margin-bottom: 80px;
   }
 
-  .homes__list_item {
+  .homes__item {
     gap: 20px;
   }
 
-  .homes__list_title,
-  .homes__list_text {
+  .homes__title,
+  .homes__text {
     font-size: 20px;
   }
 
@@ -146,24 +146,24 @@
     margin-bottom: 40px;
   }
 
-  .destinations__list_item {
+  .destinations__item {
     gap: 20px;
   }
 
-  .destinations__list_title {
+  .destinations__title {
     font-size: 20px;
   }
 
-  .destinations__list_item:nth-child(2) ~ .destinations__list_item {
+  .destinations__item:nth-child(2) ~ .destinations__item {
     display: none;
   }
 
-  .destinations__list_slider-button {
+  .destinations__slider-button {
     left: 100%;
     bottom: 40%;
   }
 
-  .destinations__list_slider-button-arrow {
+  .destinations__slider-button-arrow {
     transform: rotate(0deg);
   }
 
@@ -345,12 +345,12 @@
     margin-bottom: 40px;
   }
 
-  .homes__list_item {
+  .homes__item {
     gap: 16px;
   }
 
-  .homes__list_title,
-  .homes__list_text {
+  .homes__title,
+  .homes__text {
     font-size: 16px;
   }
 
@@ -466,11 +466,11 @@
 
 @media (max-width: 480px) {
   /* COMMON & REUSABLE COMPONENTS */
-  .btn {
+  .button {
     width: 28px;
   }
 
-  .btn-arrow {
+  .button-arrow {
     width: 7px;
     height: 11px;
   }
@@ -577,12 +577,12 @@
     font-size: 28px;
   }
 
-  .homes__list_item {
+  .homes__item {
     gap: 8px;
   }
 
-  .homes__list_title,
-  .homes__list_text {
+  .homes__title,
+  .homes__text {
     font-size: 12px;
   }
 
