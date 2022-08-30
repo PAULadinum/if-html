@@ -39,6 +39,7 @@ span {
 
 ul {
   padding-left: 0; /* from bootstrap */
+  margin-bottom: 0; /* from bootstrap */
 }
 
 p {
@@ -133,6 +134,10 @@ p {
   margin-right: 24px;
 }
 
+.navigation__item:nth-child(5) {
+  display: none;
+}
+
 .navigation__link {
   display: inline-block;
   font-size: 24px;
@@ -190,7 +195,6 @@ p {
 }
 
 #hamburger-button {
-  display: none;
   width: 40px;
   height: 40px;
   fill: #ffffff;
@@ -403,10 +407,6 @@ h2.advantages__heading:after {
   padding: 120px 0 120px;
 }
 
-.homes__content {
-  position: relative;
-}
-
 /* .homes__list {
   width: fit-content;
   max-width: calc(1232px + 32px);
@@ -421,6 +421,7 @@ h2.advantages__heading:after {
 
 .homes__slider-wrapper {
   position: relative;
+  height: min-content;
 }
 
 .homes__list {
@@ -457,7 +458,7 @@ h2.advantages__heading:after {
 
 .homes__slider-button {
   position: absolute;
-  top: 30%;
+  top: 31%;
   z-index: 10;
   right: 0;
 }

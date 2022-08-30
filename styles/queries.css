@@ -252,6 +252,10 @@
     display: none;
   }
 
+  .navigation__item:nth-child(5) {
+    display: block;
+  }
+
   #theme-switcher {
     width: 24px;
     height: 24px;
@@ -263,7 +267,6 @@
   }
 
   #hamburger-button {
-    display: block;
     width: 32px;
     height: 24px;
   }
