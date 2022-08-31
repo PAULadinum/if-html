@@ -446,14 +446,6 @@ h2.advantages__heading:after {
   aspect-ratio: 1/1;
 }
 
-.homes__text-block {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  width: inherit;
-  height: 80px;
-}
-
 .homes__title {
   font-size: 24px;
   color: var(--accent-blue);
@@ -462,7 +454,6 @@ h2.advantages__heading:after {
 .homes__text {
   font-size: 24px;
   color: var(--secondary-text);
-  text-overflow: ellipsis;
 }
 
 .homes__slider-button {
