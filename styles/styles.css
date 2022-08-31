@@ -451,6 +451,7 @@ h2.advantages__heading:after {
   flex-direction: column;
   gap: 24px;
   width: inherit;
+  height: 80px;
 }
 
 .homes__title {
