@@ -19,6 +19,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
   line-height: inherit; /* from bootstrap */
@@ -98,6 +100,7 @@ p {
   background-image: url(../images/top-section_background.webp);
   background-size: cover;
   background-repeat: no-repeat;
+  order: 1;
 }
 
 .header {
@@ -333,6 +336,7 @@ p {
   height: 569px;
   margin: 0 auto;
   padding-top: 120px;
+  order: 2;
 }
 
 .svg-sprite {
@@ -405,6 +409,7 @@ h2.advantages__heading:after {
 .homes {
   background-color: #eaf0f9;
   padding: 120px 0 120px;
+  order: 3;
 }
 
 /* .homes__list {
@@ -469,6 +474,7 @@ h2.advantages__heading:after {
   padding-top: 120px;
   padding-bottom: 208px;
   margin: 0 auto;
+  order: 4;
 }
 
 .destinations__heading {
@@ -655,6 +661,7 @@ h2.advantages__heading:after {
 .sign-up.container {
   height: inherit;
   max-height: 200px;
+  order: 5;
 }
 
 .sign-up__content {
@@ -681,6 +688,23 @@ h2.advantages__heading:after {
   width: 50px;
   height: 45px;
   fill: var(--accent-blue);
+}
+
+.sign-up__logo-block {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-blue);
+  width: 72px;
+  aspect-ratio: 1/1;
+  padding: 0 2px;
+  border-radius: 4px;
+}
+
+.sign-up__logo-block_svg {
+  width: 54px;
+  height: 12px;
+  fill: var(--general-white);
 }
 
 .sign-up__text-button {
@@ -711,6 +735,20 @@ h2.advantages__heading:after {
   cursor: pointer;
 }
 
+.sign-up__install {
+  display: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--accent-blue);
+  text-decoration: none;
+  transition: all 0.7s;
+}
+
+.sign-up__install:hover {
+  color: var(--secondary-text);
+  cursor: pointer;
+}
+
 .sign-up__close-button {
   width: 26px;
   height: 26px;
@@ -731,6 +769,7 @@ h2.advantages__heading:after {
   height: inherit;
   padding: 120px 0;
   margin: 0 auto;
+  order: 6;
 }
 
 .reviews__heading {
@@ -915,54 +954,10 @@ h2.reviews__heading::after {
   background-color: #333333;
 }
 
-/* APP */
-.app {
-  max-height: 106px;
-  height: fit-content;
-  padding: 24px 17px;
-  display: none;
-  align-items: center;
-  gap: 16px;
-  justify-content: space-between;
-}
-
-.app__close-button {
-  width: 20px;
-  height: 20px;
-  fill: var(--secondary-text);
-}
-
-.app__logo-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--accent-blue);
-  width: 72px;
-  height: 72px;
-  padding: 0 2px;
-  border-radius: 4px;
-}
-
-.app__logo-block_svg {
-  width: 54px;
-  height: 12px;
-  fill: var(--general-white);
-}
-
-.app__text,
-.app__button {
-  font-size: 16px;
-}
-
-.app__button {
-  font-weight: 500;
-  color: var(--accent-blue);
-  cursor: pointer;
-}
-
 /* FOOTER */
 .wrapper._footer {
   background-color: #10367c;
+  order: 7;
 }
 
 .footer {

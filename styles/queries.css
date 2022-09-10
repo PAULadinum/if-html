@@ -395,7 +395,47 @@
 
   /* SIGN UP */
   .sign-up.container {
+    order: 7;
+    padding: 24px 17px;
+  }
+
+  .sign-up__content {
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    background-color: transparent;
+  }
+
+  .sign-up__icon,
+  .sign-up__button {
     display: none;
+  }
+
+  .sign-up__logo-block {
+    display: flex;
+    order: 2;
+  }
+
+  .sign-up__text-button {
+    order: 3;
+  }
+
+  .sign-up__text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .sign-up__install {
+    display: block;
+    order: 4;
+  }
+
+  .sign-up__close-button {
+    position: static;
+    width: 20px;
+    height: 20px;
+    order: 1;
   }
 
   /* REVIEWS */
@@ -418,11 +458,6 @@
 
   .reviews__author {
     gap: 16px;
-  }
-
-  /* APP */
-  .app {
-    display: flex;
   }
 
   /* FOOTER */
@@ -650,6 +685,25 @@
     height: 11px;
   }
 
+  /* SIGN-UP */
+  .sign-up__close-button {
+    width: 16px;
+    height: 16px;
+  }
+
+  .sign-up__logo-block {
+    width: 58px;
+  }
+
+  .sign-up__text {
+    font-size: 12px;
+    line-height: 14.06px;
+  }
+
+  .sign-up__install {
+    font-size: 14px;
+  }
+
   /* REVIEWS */
   .reviews {
     padding-top: 40px;
@@ -717,23 +771,6 @@
 
   .reviews__navigation {
     display: flex;
-  }
-
-  /* APP */
-  .app__close-button {
-    width: 16px;
-    height: 16px;
-  }
-
-  .app__logo-block {
-    width: 58px;
-    height: 58px;
-  }
-
-  .app__text,
-  .app__button {
-    font-size: 12px;
-    line-height: 14.06px;
   }
 
   /* FOOTER */
