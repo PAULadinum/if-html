@@ -511,11 +511,10 @@
   width: calc(var(--col-xs-width) * 6);
 }
 
-[class*="col-xs"] {
-  width: 100%;
-}
-
 @media (max-width: 480px) {
+  [class*="col-xs"] {
+    width: 100%;
+  }
   /* COMMON & REUSABLE COMPONENTS */
   .button {
     width: 28px;
