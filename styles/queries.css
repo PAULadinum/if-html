@@ -488,7 +488,7 @@
 /* *************************** */
 /* PHONES (xs) */
 .col-xs-1 {
-  width: var(--col-width);
+  width: var(--col-xs-width);
 }
 
 .col-xs-2 {
@@ -509,6 +509,10 @@
 
 .col-xs-6 {
   width: calc(var(--col-xs-width) * 6);
+}
+
+[class*="col-xs"] {
+  width: 100%;
 }
 
 @media (max-width: 480px) {
@@ -573,10 +577,6 @@
   }
 
   /* ADVANTAGES */
-  [class*="col-xs"] {
-    width: 100%;
-  }
-
   .advantages {
     height: auto;
     padding-top: 24px;
