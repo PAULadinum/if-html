@@ -19,5 +19,9 @@
   "homepage": "https://github.com/pavel-4/if-html#readme",
   "devDependencies": {
     "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "swiper": "^8.3.2"
   }
 }
